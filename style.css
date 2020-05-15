@@ -61,14 +61,20 @@ section{
     padding-top: 200px;
 }
 
+#latest-work-title{
+    text-align: center;
+    margin-top: 200px;
+}
+
 .one-third-width{
+    margin-top: 300px;  /* Otherwise image hides the h1 */
     width: 30%;
     float: left;
     margin-left: 3%;
 }
 
 .one-third-width img{
-    padding-top: 200px;  /* Otherwise image hides the h1 */
+    
     width:100%;
 }
 
