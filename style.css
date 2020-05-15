@@ -61,6 +61,18 @@ section{
     padding-top: 200px;
 }
 
+.one-third-width{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+
+.one-third-width img{
+    padding-top: 200px;  /* Otherwise image hides the h1 */
+    width:100%;
+}
+
+
 #header{
     background: no-repeat url(images/header-bg.png) 50% / 100%;
     /*padding-top: 200px;*/
@@ -68,6 +80,12 @@ section{
 
 #biography{
     background: no-repeat url(images/biography-bg.png) 50% / 100%;
+}
+
+#latest-work{
+    background: no-repeat url(images/latest-work-bg.png) 50% / 100%;
+    margin-left:4%;
+    margin-right: 4%; /* created some margin from left and right */
 }
 
 .area{
