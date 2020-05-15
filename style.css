@@ -21,14 +21,23 @@ h1{
     padding-left: 250px;
 }
 
+#img-bio{
+    padding-left: 100px;
+    position:top;
+}
+
+#text-bio{
+    padding-top: 100px;
+}
+
 section{
     /*height:800px;*/
     /*margin-bottom: 150px;*/
-    width:100%;
+    /*width:100%;*/
 }
 
 .half-width{
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     width: 40%;
     float:left;
     
@@ -48,8 +57,17 @@ section{
     font-weight: 700;
 }
 
+.top-pad{
+    padding-top: 200px;
+}
+
 #header{
     background: no-repeat url(images/header-bg.png) 50% / 100%;
+    /*padding-top: 200px;*/
+}
+
+#biography{
+    background: no-repeat url(images/biography-bg.png) 50% / 100%;
 }
 
 .area{
