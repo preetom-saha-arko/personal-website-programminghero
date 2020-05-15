@@ -1,0 +1,82 @@
+body{
+    /*
+    margin: 0;
+    */
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#name{
+    color:	#fc1c74;
+    font-weight: 900;
+    
+}
+
+
+
+#intro{
+    padding-left: 250px;
+}
+
+section{
+    /*height:800px;*/
+    /*margin-bottom: 150px;*/
+    width:100%;
+}
+
+.half-width{
+    margin-top: 200px;
+    width: 40%;
+    float:left;
+    
+}
+
+.half-width img{
+    width:100%;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,#ec5494,#ec4c74);
+    color: white;
+    padding:10px 35px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#header{
+    background: no-repeat url(images/header-bg.png) 50% / 100%;
+}
+
+.area{
+    position: relative;
+    
+
+    /*
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    */
+}
+
+/* source:
+ https://stackoverflow.com/questions/30035530/scale-div-to-fit-background-image 
+ */
+
+ 
+.area > img{
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+}
+.area > div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
