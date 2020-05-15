@@ -57,17 +57,51 @@ section{
     font-weight: 700;
 }
 
+#email-button{
+    margin-top: 100px !important;
+    width: 700px;
+    height: 150px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#ec5494,#ec4c74);
+    margin: 0 auto;  /* otherwise it doesn't center */
+}
+
+#email-button p{
+    padding-top: 30px;
+    color:white;
+    font-size: 15px;
+    
+}
+
+#email-button a{
+    padding-top: 25px;
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
 .top-pad{
     padding-top: 200px;
+}
+
+.centering{
+    text-align: center;
+}
+
+.grayed{
+    color:darkgray;
+}
+
+#copyright{
+    margin-top: 200px;
 }
 
 #latest-work-title{
     text-align: center;
     margin-top: 100px;
-}
-
-#footer-title{
-    text-align: center;
 }
 
 .one-third-width{
@@ -100,6 +134,13 @@ section{
 
 #footer-area{
     background: no-repeat url(images/footer-bg.png) 50% / 100%;
+    text-align: center;
+}
+
+#footer-paragraph{
+    
+    width: 45%;
+    margin: 0 auto;  /* otherwise it doesn't center */
 }
 
 .area{
